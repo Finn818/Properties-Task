@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Property(TASK)</title>
+</head>
+<body style="background-image: url(./img/Sneaker-Room-DJ-Khaled-4.jpg);">
+            
+        <div id="p"  style="background-image: url(./img/maxresdefault.jpg); width: 1530px; height: 730px; opacity: 0.6;">
+<h3 id="head" style="padding-top: 300px; color: black;"><b>Welcome to Sneaker Room</b></h3>
+<h4 style="padding-bottom: 100px; margin-left: 600px; font-size: 20px; color: black;"><b>You'd Wish You Had This!!!</b></p>
+</div>
+
+    <div class="container1">
+    <label for="" style="color: aqua;">Looking for:</label>
+    <select id="type" name="Property">
+      <option disabled selected value>Make..</option>
+      <option value="90">Airmax 90</option>
+      <option value="1">Airmax 1</option>
+      <option value="95">Airmax 95</option>
+      <option value="97">Airmax 97</option>
+      <option value="R-1">Retro 1</option>
+      <option value="R-4">Retro 4</option>
+      <option value="Runner">Runners</option>
+    
+    </select>
+
+    <label for="" style="color: aqua;">Store</label>
+    <select id="type" name="Location">
+      <option disabled selected value>All Stores</option>
+      <option value="Promanade">Promanade</option>
+      <option value="Cavendish">Cavendish</option>
+      <option value="Kenilworth">Kenilworth</option>
+      <option value="CenturyCity">CenturyCity</option>
+      <option value="WestGate">WestGate</option>
+    </select>
+
+    <label for="" style="color: aqua;">Sizes:</label>
+    <select id="location" name="Size">  
+      <option disabled selected value>Sizes</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="+5">+5</option>
+    </select>
+
+    <label for="" style="color: aqua;">Your Budget</label>
+    <select id="type" name="Budget">
+      <option disabled selected value>Max.Price</option>
+      <option value="value">Any</option>
+      <option value="R2000">R2000</option>
+      <option value="R2,300">R2,300</option>
+      <option value="R2,500">R2,500</option>
+      <option value="R3,000 +">R3,000 +</option>
+    </select>
+<br>
+    <input type="text" id="myInput" placeholder="Search.." name="search">
+    <button type="submit" onclick="myfunction()"><i class="bi bi-search"></i></button>
+    </div>
+    </div>
+
+<ul id="list">
+  <li></li>
+</ul>
+
+<!-- <script>
+  function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("list");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+  </script> -->
+
+    <section>
+    <div  class="text" id="start"  style="text-align: center;">
+    <h2 style="color: aqua;">Chech Our Selection</h2>
+    <p style="font-size: 20px; color: aqua;"><b>The best only for the best!!!</b></p>
+    </div>
+
+    <div class="container" style="align-items:center;" >
+    <div class="row" id="row1">
+    <div class="column-md-3">
+      <!-- <img src="./shoes/56b14265c1176e35d7dfeaf5bf7b36d3cb6ab710-1100x735.jpg" alt=""width="400"height="400" class="img-fluid">
+      <img src="./shoes/a1205480-7243-4328-a796-94aa714b06ff.webp"alt=""width="400"height="400" class="img-fluid">
+      <img src="./shoes/Air-Jordan-1-High-OG-Florida-Gators-PE.webp"alt=""width="400"height="400" class="img-fluid"> -->
+      
+    </div>
+    <div class="column-md-3">
+      <!-- <img src="./shoes/CJ3906-104-1_370x.webp"alt=""width="400"height="400" class="img-fluid">
+      <img src="./shoes/air-jordan-1-i-denim-womens-release-date-dm9036-104-pair.jpg"alt="" width="400" height="400" class="img-fluid">
+      <img src="./shoes/Nike-air-jordan-1-x-off-white.jpg"alt="" width="400"height="400" class="img-fluid">
+    </div>
+    <div class="column-md-3">
+      <img src="./shoes/nike-air-max-90-first-use-DB0636-400.webp"alt=""width="400"height="400" class="img-fluid">
+      <img src="./shoes/data.jpeg.webp"alt=""width="400"height="400" class="img-fluid">
+      <img src="./shoes/download.jpg"alt=""width="400"height="400" class="img-fluid"> -->
+    </div>
+    <div class="column-md-3">
+        <!-- <img src="./shoes/Nike-Airmax-1-1-scaled.jpeg"alt="" width="400"height="400" class="img-fluid">
+        <img src="./shoes/Patta-Air-max-Monarch.jpg"alt=""width="400"height="400" class="img-fluid">
+        <img src="./img/0ea-02-Air-jordan-4-Retro-Blog-f18.webp"alt=""width="400"height="400" class="img-fluid"> -->
+    </div>
+    </div>
+    </div>
+
+
+    <section>
+    <footer id="end" style="background-color: aqua; width: 1518px; height: 300px;" >
+      <div class="container3" >
+       
+        <div class="row">
+        <div class="col-lg-4">
+         <h6>Discover</h6>
+        <p><b>Miami</b></p>
+        <p><b>Los Angeles</b></p>
+        <p><b>Chicago</b></p>
+        <p><b>New York</b></p>
+      </div>
+
+      <div class="col-lg-4">
+        <h6>Contact Us</h6>
+        <p><b>774 NE 84th St Miami, FL 33879</b></p>
+        <p><b>987 654 9875</b></p>
+        <p><b>879 456 1349</b></p>
+        <p><b>email.@houzez.co</b></p>
+      </div>
+
+      <!-- <section> -->
+      <div class="col-lg-4">
+        <h4>Newletter</h4>
+        <input type="text" placeholder="Message..."><button onclick="submit">Submit</button>
+        <br>
+        <p class=d-flex flex-row-reverse bd-highlight><b>Drop us some feedback to help improve our services.</b></p>
+      </div>
+    </div>
+      </div>
+    <!-- </section> -->
+    
+        <section id="sec">
+            <!-- <div class="container2" style="text-align: center; font-size: 15px;"> -->
+           <p id="Anteiku"> @ Anteiku - All right reserved</p>
+           <h3 id="title">Anteiku </h3>
+           <div id="icons">
+           <i class="bi bi-facebook"></i>
+           <i class="bi bi-twitter"></i>
+           <i class="bi bi-github"></i>
+           <i class="bi bi-instagram"></i>
+           <i class="bi bi-youtube"></i>
+          </div>
+        
+        </section>
+    </footer>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+    <script src="./script/code.js"></script>
+</body>
+</html>
