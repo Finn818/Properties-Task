@@ -5,8 +5,8 @@ JSON.parse(localStorage.getItem('takkies')):
  
     {
     id : 1,
-    name : '<b>Airmax 95 Ice blue</b>',
-    price : '<b>R 2821,18</b>',
+    name : 'Airmax 95',
+    price : 'R 2821,18',
     size : 'Size : 1, 3, 4.5, 6',
     store : 'Store : Promanade',
     image :'./shoes/56b14265c1176e35d7dfeaf5bf7b36d3cb6ab710-1100x735.jpg',
@@ -14,8 +14,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 2,
-    name : '<b>Retro 1 blue & black</b>',
-    price : '<b>R 2799,00</b>',
+    name : 'Retro 1',
+    price : 'R 2799,00',
     size : 'Size : 3, 4, 7, ',
     store : 'Store : Cavendish',
     image :'./shoes/a1205480-7243-4328-a796-94aa714b06ff.webp',
@@ -23,8 +23,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 3,
-    name : '<b>Retro 1 blue & orange</b>',
-    price : '<b>R 2999,00</b>',
+    name : 'Retro 1',
+    price : 'R 2999,00',
     size : 'Size : 2,3',
     store : 'Store : WestGate',
     image :'./shoes/Air-Jordan-1-High-OG-Florida-Gators-PE.webp',
@@ -32,8 +32,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 4,
-    name : '<b> Retro 1 HYPER ROYAL</b>',
-    price : '<b>R 3599,99</b>',
+    name : 'Retro 1',
+    price : 'R 3599,99',
     size : 'Size : 4, Promanade',
     store : 'Store : Kenilworth',
     image :'./shoes/air-jordan-1-i-denim-womens-release-date-dm9036-104-pair.jpg',
@@ -41,8 +41,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 5,
-    name : '<b>Airmax 95 marron</b>',
-    price : '<b>R 2799,99</b>',
+    name : 'Airmax 95',
+    price : 'R 2799,99,',
     size : 'Size : 2, 3, 4, 4.5',
     store : 'Store : CenturyCity',
     image :'./shoes/CJ3906-104-1_370x.webp',
@@ -50,8 +50,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 6,
-    name : '<b>AirMax 97</b>',
-    price : '<b>R 4099,99</b>',
+    name : 'Airmax 97',
+    price : 'R 4099,99',
     size : 'Size : 2, 5',
     store : 'Store : Kenilworth',
     image :'./shoes/data.jpeg.webp',
@@ -59,8 +59,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 7,
-    name : '<b>Airmax 90 University Blue</b>',
-    price : '<b>R 7254,45</b>',
+    name : 'Airmax 90',
+    price : 'R 7254,45',
     size : 'Size : 2, 4, 5',
     store : 'Store : Kenilworth',
     image :'./shoes/download.jpg',
@@ -68,8 +68,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 8,
-    name : '<b>Retro 1 off white</b>',
-    price : '<b>R 3062,99</b>',
+    name : 'Retro 1',
+    price : 'R 3062,99',
     size : 'Size : 3, 4, 4.5, 5',
     store : 'Store : Cavendish',
     image :'./shoes/Nike-air-jordan-1-x-off-white.jpg',
@@ -77,8 +77,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 9,
-    name : '<b>Airmax 90 baby blue</b>',
-    price : '<b>R 2599,99</b>',
+    name : 'Airmax 90',
+    price : 'R 2599,99',
     size : 'Size : 2, 3',
     store : 'Store : WestGate',
     image :'./shoes/nike-air-max-90-first-use-DB0636-400.webp',
@@ -86,8 +86,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 10,
-    name : '<b>Airmax 1</b>',
-    price : '<b>R 2999,99</b>',
+    name : 'Airmax 1',
+    price : 'R 2999,99',
     size : 'Size : 5, 6, 8',
     store : 'Store : Promanade',
     image :'./shoes/Nike-Airmax-1-1-scaled.jpeg',
@@ -95,8 +95,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 11,
-    name : '<b>Airmax 1 Anniversary Orange (2020)</b>',
-    price : '<b>R 2256,94</b>',
+    name : 'Airmax 1',
+    price : 'R 2256,94',
     size : 'Size : 1, 4.5, 6, 7',
     store : 'Store : CenturyCity',
     image :'./shoes/Patta-Air-max-Monarch.jpg',
@@ -104,8 +104,8 @@ JSON.parse(localStorage.getItem('takkies')):
     },
     {
     id : 12,
-    name : '<b>Retro 4 blog</b>',
-    price : '<b>R 3499,99</b>',
+    name : 'Retro 4',
+    price : 'R 3499,99',
     size : 'Size : 2, 3, 5, 7',
     store : 'Store : Cavendish',
     image :'./img/0ea-02-Air-jordan-4-Retro-Blog-f18.webp',
@@ -115,21 +115,22 @@ JSON.parse(localStorage.getItem('takkies')):
 
  ));
 
-function readData() {
-    let row = document.querySelector('#row1');
+ let row = document.querySelector('#row1');
+function readData(shoes) {
     row.innerHTML = "";
-    takkies.forEach( (item, index)=> {
+
+    shoes.forEach( (item)=> {
         row.innerHTML += `
            <div class="col-4 pb-5">
            <div class="card" style="width: 18rem;">
            <img src='${item.image}' class="card-img-top" alt="Apartment" width="240px" height="240px">
            <div class="card-body">
                <h5 class="card-title">${item.id}</h5>
-               <h3 class='chat'>${item.name}</h3>
+               <h3 class='name'>${item.name}</h3>
                <p class='price'>${item.price}</p>
                <h6 class='size'>${item.size}</h6>
                <br>
-               <h6 class='store'>${item.store}</h6>
+               <h6 class="store">${item.store}</h6>
            </div>
            <div class="card-body">
                <h6>Description</h6>
@@ -141,7 +142,7 @@ function readData() {
     });
 }
 
-readData();
+readData(takkies);
 
 // function checktakkies(takkies) {
 //   return takkies > document.getElementById("myInput").value;
@@ -156,3 +157,39 @@ readData();
 // });
 
 // console.log(newtakkies);
+
+function airmax(event){
+    console.log(event);
+    let newairmax = takkies.filter(a => {
+        return a.name == event.target.value
+    })
+    readData(newairmax);
+}
+
+function airmax(event){
+    console.log(event);
+    let newairmax = takkies.filter(a => {
+        return a.name == event.target.value
+    })
+    readData(newairmax);
+}
+
+function buy(event){
+    console.log(event);
+    let newairmax = takkies.filter(a => {
+        return a.store == event.target.value
+    })
+    readData(newairmax);
+}
+
+function fit(event){
+    console.log(event);
+    let newairmax = takkies.filter(a => {
+        return a.size == event.target.value
+    })
+    readData(newairmax);
+}
+
+document.getElementById('shoes').addEventListener('change', airmax);
+document.getElementById('place').addEventListener('change', buy);
+document.getElementById('feet').addEventListener('change', fit);

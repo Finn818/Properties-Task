@@ -12,8 +12,8 @@ function table(){
         <td>${takkie.size}</td>
         <td>${takkie.store}</td>
         <td>${takkie.description}</td>
-        <td><i class="bi bi-pencil-square"></i></td>
-        <td><i class="bi bi-trash3-fill"></i></td>
+        <td><button type="submit" onclick="myfunction()"><i class="bi bi-pencil-square"></i></td></button>
+        <td><button type="submit" onclick="myfunction()"><i class="bi bi-trash3-fill"></i></td></button>
         </tr>
         
         `
