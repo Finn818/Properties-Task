@@ -9,7 +9,6 @@ JSON.parse(localStorage.getItem('takkies')):
     price : '<b>R 2821,18</b>',
     size : 'Size : 1, 3, 4.5, 6',
     store : 'Store : Promanade',
-    
     image :'./shoes/56b14265c1176e35d7dfeaf5bf7b36d3cb6ab710-1100x735.jpg',
     description : 'The Nike Air Max 95 isn’t celebrating a milestone anniversary, but it’s maintained a steady flow of releases throughout 2022’s first five months.'
     },
